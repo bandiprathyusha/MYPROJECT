@@ -1,0 +1,7 @@
+Map  mp = new HashMap();
+String department= account.getStringAttribute("department")
+if(department != null){
+  mp.put("identityAttributeName","department");
+  mp.put("identityAttributeValue",department);
+}
+return mp;c
